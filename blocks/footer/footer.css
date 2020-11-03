@@ -1,6 +1,8 @@
 .footer {
   width: calc(100% - 96px);
-  min-height: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 0 auto;
 }
 
@@ -13,5 +15,6 @@
 @media screen and (max-width: 720px) {
   .footer {
     width: calc(100% - 32px);
+    display: block;
   }
 }

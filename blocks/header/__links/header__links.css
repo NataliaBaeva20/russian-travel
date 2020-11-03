@@ -2,11 +2,11 @@
   list-style: none;
   display: flex;
   padding: 0;
-  margin: 18px 0 6px 0;
+  margin: 18px 0 6px;
 }
 
 @media screen and (max-width: 425px) {
   .header__links {
-    margin: 16px 0 6px 0;
+    margin-top: 16px;
   }
 }

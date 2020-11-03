@@ -2,11 +2,9 @@
   grid-row: 2/3;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 615px) {
   .place__paragraphs {
     width: 90%;
     margin: 0 auto;
-    font-size: 16px;
-    line-height: 26px;
   }
 }
