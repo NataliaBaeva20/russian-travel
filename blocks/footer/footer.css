@@ -1,0 +1,17 @@
+.footer {
+  width: calc(100% - 96px);
+  min-height: 18px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .footer {
+    width: calc(100% - 32px);
+  }
+}

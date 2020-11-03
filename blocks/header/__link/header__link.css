@@ -1,0 +1,12 @@
+.header__link {
+  margin-right: 18px;
+  transition: opacity .3s ease;
+}
+
+.header__link:hover {
+  opacity: .5;
+}
+
+.header__link:last-child {
+  margin: 0;
+}
