@@ -58,8 +58,8 @@
 @import url(../blocks/footer/__column/footer__column.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__nav-link/footer__nav-link.css);
 @import url(../blocks/footer/__author/footer__author.css);
 
 /*margin-bottom for the sections*/
 @import url(../blocks/page/__section/page__section.css);
-
