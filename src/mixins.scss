@@ -1,0 +1,21 @@
+@mixin initial-text($size, $height, $weight) {
+  font: {
+    size: $size;
+    weight: $weight;
+  }
+  line-height: $height;
+}
+
+@mixin adaptive-text($size, $height) {
+  font-size: $size;
+  line-height: $height;
+}
+
+@mixin link-animation($time, $opacity) {
+  transition: opacity #{$time} ease;
+
+  &:hover {
+    cursor: pointer;
+    opacity: $opacity;
+  }
+}

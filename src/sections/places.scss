@@ -1,0 +1,16 @@
+.places {
+  width: $widthNarrowSection;
+
+  @media screen and (max-width: 1024px) {
+    width: calc(100% - 96px);
+  }
+
+  @media screen and (max-width: 768px) {
+    width: $widthTabletScreen;
+  }
+
+  @media screen and (max-width: 425px) {
+    width: 100%;
+  }
+}
+

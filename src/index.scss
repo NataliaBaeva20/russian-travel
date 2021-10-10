@@ -1,0 +1,46 @@
+@import '../vendor/normalize.css', '../fonts/fonts.css';
+
+@import 'variables';
+@import 'mixins';
+
+.body {
+  background-color: $bgColor;
+}
+
+.page {
+  max-width: 1280px;
+  padding: 28px 0 24px;
+  margin: 0 auto;
+  font-family: $fontStack;
+  color: $textColor;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+
+  @media screen and (max-width: 1024px) {
+    margin: 0;
+  }
+
+  @media screen and (max-width: 425px) {
+    padding-top: 16px;
+  }
+}
+
+.content {
+  display: grid;
+  gap: 92px;
+  margin-bottom: 92px;
+  justify-items: center;
+
+  @media screen and (max-width: 768px) {
+    gap: 88px;
+    margin-bottom: 88px;
+  }
+
+  @media screen and (max-width: 425px) {
+    gap: 64px;
+    margin-bottom: 64px;
+  }
+}
+
+
+@import 'sections/header', 'sections/lead', 'sections/intro', 'sections/photo-grid', 'sections/places', 'sections/place', 'sections/cover', 'sections/footer';
